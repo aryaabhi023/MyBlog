@@ -42,7 +42,7 @@ function Post() {
           <img
             src={appwriteService.getFilePreview(post.featuredImage)}
             alt={post.title}
-            className="rounded-xl"
+            className="rounded-xl max-h-96"
           />
           {isAuthor && (
             <div
