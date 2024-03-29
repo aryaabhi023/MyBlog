@@ -52,7 +52,7 @@ export class Service {
 
   async deletePost(slug) {
     try {
-      await this.database.deletePost(
+      await this.database.deleteDocument(
         conf.appwrite_databaseId,
         conf.appwrite_collectionId,
         slug
