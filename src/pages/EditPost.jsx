@@ -20,10 +20,6 @@ function EditPost() {
     }
   }, [slug, navigate]);
 
-  if (userData == null) {
-    return <div></div>;
-  }
-
   return post ? (
     <div>
       <Container>
